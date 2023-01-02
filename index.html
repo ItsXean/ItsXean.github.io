@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+   <section class="hero" id="home">
+    <div class="main-width">
+        <header>
+            <div class="logo">
+                <i class="fa-solid fa-money-check"></i>
+            </div>
+            <nav>
+                <div class="ham">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <ul class="nav-list">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#hobby">Hobby</a></li>
+                    <li class="contact"><a href="mailto:rizalalief27@gmail.com">Contact</a></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <div class="container" id="home">
+            <div class="hero-text">
+                <h3>Hi, There!</h3>
+                <h1>I Am <span class="type"></span></h1>
+                <p>I create this website to introduce myself as well and as a platform for you to get to know me better</p>
+                <div class="social">
+                    <a href="https://www.facebook.com/profile.php?id=100076976230901"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="http://www.instagram.com/aliefarrzl_"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=6285797466593"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://discord.gg/uFNUxVmD"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <button type="button"><a href="#aboutme">More About Me</a></button>
+            </div>
+        </div>
+
+    </div>
+   </section>
+
+   <section class="about" id="aboutme">
+    <div class="main">
+        <img src="pict/mainpict.jpg">
+        <div class="about-text">
+            <h2>Profile.</h2>
+            <h5>Student <span>& Web Developer</span></h5>
+            <p>Hello my name Muhammad Alief Arrizal Effendi but you can call me AL or Rizal is up to you what u want call me to. Im from Bandung City, Indonesia. For now im a student in Informatics Engineering Pasundan University Bandung. I dedicate myself as a student at Pasundan University to reach one of my goals as a developer.</p>
+            <button class="text-btn" type="button"><a href="https://api.whatsapp.com/send?phone=6285797466593">Talk With Me</a></button>
+        </div>
+    </div>
+   </section>
+
+   <section class="hobby">
+    <div class="hobby-container">
+        <div class="title">
+            <h2 id="hobby">My Hobby.</h2>
+        </div>
+
+        <div class="gallery-hobby">
+            <img src="pict/mygames.jpg" alt="">
+            <div class="desc">Playing Games.</div>
+        </div>
+
+        <div class="gallery-hobby">
+            <img src="pict/editing.jpg" alt="">
+            <div class="desc">Editing Photo.</div>
+        </div>
+
+        <div class="gallery-hobby">
+            <img src="pict/fashion.jpg" alt="">
+            <div class="desc">Fashion Enthusiasm.</div>
+        </div>
+    </div>
+   </section>
+
+   <script src="typed.js-master/lib/typed.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+   <script>
+    var typed = new Typed(".type", {
+  strings: [
+    "Alief Arrizal.",
+    "Web Developer.",
+    "Student Of Pasundan University.",
+  ],
+  typeSpeed: 60,
+  backSpeed: 60,
+  loop: true
+
+});
+   </script>
+
+   <script src="script.js"></script>
+   
+   <footer>
+    <div class="bottom">
+        <p>© 2022 Arrizal - All Rights Reserved.</p>
+    </div>
+   </footer>
+
+</body>
+</html>
